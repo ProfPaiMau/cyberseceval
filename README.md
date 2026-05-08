@@ -27,7 +27,7 @@ CyberSecEval/
 │   └── zenodo_release_steps.md
 ├── scripts/
 │   └── analyze_training_evaluations.py
-├── outputs/                  # generated tables/figures from script
+├── outputs/                  # additional generated outputs
 ├── CITATION.cff
 ├── LICENSE
 └── README.md

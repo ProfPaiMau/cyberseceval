@@ -1,6 +1,2 @@
-Metric,Valid_N,Value,SD
-Overall Satisfaction (Q15),804,6.2475,1.0644
-Applied Practice (Q18),808,6.2797,0.9786
-Knowledge Transfer (Q34),807,5.6481,1.4685
-Recommendation (Q36),807,8.5675,1.8857
-NPS,807,50.1859,
+Module,N_total,N_OS_Q15,mean_OS_Q15,sd_OS_Q15,N_AP_Q18,mean_AP_Q18,sd_AP_Q18,N_KT_Q34,mean_KT_Q34,sd_KT_Q34,N_JR_Q33,mean_JR_Q33,sd_JR_Q33,N_REC_Q36,mean_REC_Q36,sd_REC_Q36,NPS_Q36
+Overall,814,804,6.25,1.06,808,6.28,0.98,807,5.65,1.47,811,5.78,1.46,807,8.57,1.89,50.19

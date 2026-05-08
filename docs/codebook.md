@@ -9,16 +9,16 @@
 
 | Column | Description | Release note |
 | --- | --- | --- |
-| `SurveyID` | Survey identifier | retain if non-personal |
-| `SurveyTitle` | Survey title | retain if non-personal |
-| `ResponseID` | Response identifier | replace with random non-reversible ID |
-| `DateTime` | Response timestamp | convert to month or remove if re-identification risk |
-| `Module Type` | Training module code/category | retain |
-| `Sector` | Sector context such as maritime, health, energy | retain unless sparse combination risks identity |
-| `Training Level` | Training level | retain |
-| `Module Title` | Module title | retain |
-| `Tools Used` | Tools used during training | retain if no personal or institutional identifiers |
-| `Certificate Of Attendance` | Certificate field | retain if categorical only |
+| `SurveyID` | Survey identifier | retained if non-personal |
+| `SurveyTitle` | Survey title | retained if non-personal |
+| `ResponseID` | Response identifier | replaced with random non-reversible ID |
+| `DateTime` | Response timestamp | kept as it is |
+| `Module Type` | Training module code/category | retained |
+| `Sector` | Sector context such as maritime, health, energy | retained unless sparse combination risks identity |
+| `Training Level` | Training level | retained |
+| `Module Title` | Module title | retained |
+| `Tools Used` | Tools used during training | retained if no personal or institutional identifiers |
+| `Certificate Of Attendance` | Certificate field | retained if categorical only |
 
 ## Trainee KPI columns
 
@@ -32,18 +32,7 @@
 
 ## Text columns
 
-Before public release, inspect and clean all free-text fields. Remove names, emails, organisations where not essential, URLs, phone numbers, exact locations, and any information that could identify a trainee, trainer, or institution.
+Before public release, inspect and clean all free-text fields. Remove names, emails, organisations where not essential, URLs, 
+1. cleaned thematic labels only;
+2. paraphrased/anonymised comments;
 
-Recommended release options:
-
-1. release cleaned thematic labels only;
-2. release paraphrased/anonymised comments;
-3. release original comments only after manual review and institutional approval.
-
-## Missing values
-
-Blank, `NA`, `N/A`, and non-numeric entries in numeric KPI columns are treated as missing.
-
-## Exclusion rule
-
-Rows labelled `CSP000` represent cross-module summer-school entries and are excluded from module-specific analysis. They may be analysed separately as cross-module programme-level feedback.

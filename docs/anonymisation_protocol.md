@@ -1,6 +1,6 @@
 # Anonymisation Protocol
 
-This protocol should be applied before public release on GitHub or Zenodo.
+The following protocol instructions were applied before public release on GitHub or Zenodo.
 
 ## Remove or transform direct identifiers
 
