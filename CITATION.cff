@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "CyberSecEval: A Multi-Module Dataset and KPI Framework for Evaluating Cybersecurity Training Effectiveness"
+message: "If you use this dataset or KPI framework, please cite the associated ASE 2026 Tools and Datasets paper and this archive."
+type: dataset
+authors:
+  - family-names: "TO_BE_COMPLETED"
+    given-names: "TO_BE_COMPLETED"
+year: 2026
+version: "1.0.0"
+license: "CC-BY-4.0"
+repository-code: "TO_BE_COMPLETED_WITH_GITHUB_URL"
+doi: "TO_BE_COMPLETED_AFTER_ZENODO_RELEASE"
+keywords:
+  - cybersecurity training
+  - software engineering education
+  - dataset
+  - KPI framework
+  - empirical evaluation

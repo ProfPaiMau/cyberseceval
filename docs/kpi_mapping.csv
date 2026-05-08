@@ -1,0 +1,20 @@
+Instrument,KPI,Variable,Scale,Definition,Computation,MissingDataRule
+Trainee,Overall Satisfaction,Q15_Value,1-7,Overall satisfaction with the training module,Single item,Use valid numeric responses only
+Trainee,Applied Practice,Q18_Value,1-7,Practical relevance and applicability of module content,Single item,Use valid numeric responses only
+Trainee,Knowledge Transfer,Q34_Value,1-7,Perceived enhancement of knowledge and skills,Single item,Use valid numeric responses only
+Trainee,Job-role Relevance,Q33_Value,1-7,Relevance to current or desired job role,Single item,Use valid numeric responses only
+Trainee,Recommendation,Q36_Value,0-10,Likelihood of recommending the module,Single item,Use valid numeric responses only
+Trainee,NPS,Q36_Value,0-10,Net Promoter Score derived from recommendation item,%promoters minus %detractors; promoters=9-10 passives=7-8 detractors=0-6,Use valid numeric responses only
+Trainee,Materials Quality,"Q16_Value;Q17_Value",1-7,Quality and clarity of training materials,Mean of Q16 and Q17,Require both items present
+Trainee,Instructor Quality,"Q20_Value;Q21_Value;Q22_Value",1-7,Instructor competence responsiveness and teaching approach,Mean of available items,Require at least 2 items present
+Trainee,Platform Experience,"Q23_Value;Q24_Value;Q25_Value;Q26_Value;Q27_Value",1-7,Accessibility navigation reliability visual appeal and interactivity,Mean of available items,Require at least 2 items present
+Trainee,Community Interaction,"Q28_Value;Q29_Value",1-7,External actor and peer interaction,Mean of Q28 and Q29,Require both items present
+Trainee,Assessment Recognition,"Q30_Value;Q31_Value;Q32_Value",1-7,Exam transparency fairness and certificate value,Mean of available items,Require at least 2 items present
+Trainer,Trainer Satisfaction,"Q1_Value;Q2_Value",1-7,Satisfaction with design and implementation,Mean of Q1 and Q2,Require both items present
+Trainer,Adaptability,Q3_Value,1-7,Adaptability to learner needs,Single item,Use valid numeric responses only
+Trainer,Practical Relevance,Q4_Value,1-7,Trainer-perceived practical relevance,Single item,Use valid numeric responses only
+Trainer,Learner Engagement,Q5_Value,1-7,Trainer-perceived learner engagement,Single item,Use valid numeric responses only
+Trainer,Observed Learning,Q6_Value,1-7,Observed understanding or application,Single item,Use valid numeric responses only
+Trainer,Learning Gain,Q12_Value,1-7,Trainer-perceived enhancement of knowledge and skills,Single item,Use valid numeric responses only
+Trainer,Recommendation,Q13_Value,0-10,Recommendation of CSP materials,Single item,Use valid numeric responses only
+Trainer,Future Hosting Intent,Q14_Value,1-7,Likelihood of hosting or reusing module,Single item,Use valid numeric responses only
